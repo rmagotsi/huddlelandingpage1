@@ -1,5 +1,14 @@
 body{
   background-image: url("https://res.cloudinary.com/dm4il5pzw/image/upload/v1597973863/bg-desktop_kbsrzi.svg");
+  background-color: #674bb1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: white;
 }
 .attribution{
   font-size: 11px;
@@ -7,4 +16,14 @@ body{
 }
 .attribution a{
   color: hsl(228, 45%, 44%);
+}
+.container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.grid_image{
+
+}
+.grid_statement{
+
 }
