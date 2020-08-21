@@ -1,6 +1,10 @@
+body{
+  background-image: url("https://res.cloudinary.com/dm4il5pzw/image/upload/v1597973863/bg-desktop_kbsrzi.svg");
+}
 .attribution{
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 .attribution a{
-  color: hsl(228, 45%, 44%
+  color: hsl(228, 45%, 44%);
 }
