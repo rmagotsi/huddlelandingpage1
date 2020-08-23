@@ -4,35 +4,57 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: white;
+  margin: 0;
 }
 h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: white;
 }
-.attribution{
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a{
-  color: hsl(228, 45%, 44%);
-}
 .container{
   display: grid;
   grid-template-columns: 60% 40%;
   justify-content: center;
-  align-content: center
+  align-content: center;
+  grid-column-gap: 10px;
 }
 .logo{
+  max-width: 100%;
+  height: auto;
 }
 .main_image{
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: grid;
   align-content: center;
+  background-image: 413px 579px;
+
 }
 .grid_statement{
   display: grid;
   align-content: center;
   justify-content: center;
+}
+.grid_image{
+  display: grid;
+  justify-content: center;
+}
+.submit{
+  padding: 13px 60px 13px 60px;
+  background-color: white;
+  border-color: white;
+  border-radius: 30px;
+  color: #674bb1;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 2px 2px 2px 2px black;
+  margin-top: 25px;
+}
+#social-icons ul{
+  width: 30px;
+  list-style-type: none;
+  float: right;
+    display: inline;
+}
+#social-icons ul li{
+
 }
