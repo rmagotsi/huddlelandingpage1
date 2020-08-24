@@ -1,3 +1,6 @@
+html{
+  margin: 60px;
+}
 body{
   background-image: url("https://res.cloudinary.com/dm4il5pzw/image/upload/v1597973863/bg-desktop_kbsrzi.svg");
   background-repeat: no-repeat;
@@ -14,15 +17,14 @@ h1{
 }
 .container{
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70px 30px;
   justify-content: center;
   align-content: center;
   grid-column-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 .logo{
-  max-width: 100%;
-  height: auto;
+
 }
 .main_image{
   max-width: 100%;
@@ -36,6 +38,7 @@ h1{
   align-content: center;
   justify-content: center;
 }
+
 .grid_image{
   display: grid;
   justify-content: center;
@@ -54,7 +57,6 @@ h1{
  list-style-type: none;
  display: flex;
  justify-content: flex-end;
- padding-right: 80px;
 }
 .icon1{
   padding-right: 30px;
@@ -67,4 +69,23 @@ padding-right: 30px;
     background-image: url("images/bg-mobile.svg");
     background-repeat: no-repeat;
   }
+#social-icons ul{
+  list-style-type: none;
+display: flex;
+justify-content: center;
+ padding-right: 80px;
+  }
+.submit{
+  display: grid;
+  justify-self: center;
+}
+.heading{
+  text-align: center;
+}
+.paragraph{
+  text-align: justify;
+}
+html{
+  margin: 20px;
+}
 }
