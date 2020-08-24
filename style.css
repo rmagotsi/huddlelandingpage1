@@ -1,5 +1,6 @@
 body{
   background-image: url("https://res.cloudinary.com/dm4il5pzw/image/upload/v1597973863/bg-desktop_kbsrzi.svg");
+  background-repeat: no-repeat;
   background-color: #674bb1;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -55,6 +56,9 @@ h1{
   float: right;
     display: inline;
 }
-#social-icons ul li{
-
+@media (max-width: 749px){
+  body{
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+  }
 }
