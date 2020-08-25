@@ -1,5 +1,5 @@
 html{
-  margin: 60px;
+  margin:0px 50px 0px 50px;
 }
 body{
   background-image: url("https://res.cloudinary.com/dm4il5pzw/image/upload/v1597973863/bg-desktop_kbsrzi.svg");
@@ -17,11 +17,11 @@ h1{
 }
 .container{
   display: grid;
-  grid-template-columns: 70px 30px;
+/*  grid-template-columns: 2fr 1fr;*/
   justify-content: center;
   align-content: center;
   grid-column-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
 }
 .logo{
 
@@ -36,12 +36,14 @@ h1{
 .grid_statement{
   display: grid;
   align-content: center;
-  justify-content: center;
+
 }
 
 .grid_image{
   display: grid;
   justify-content: center;
+
+  grid-column: auto / span 2;
 }
 .submit{
   padding: 13px 60px 13px 60px;
@@ -64,26 +66,35 @@ h1{
 .icon2{
 padding-right: 30px;
 }
-@media (max-width: 749px){
+.paragraph{
+  font-size: 1em;
+}
+.heading{
+  font-size: 2em;
+}
+@media (max-width: 768px){
   body{
     background-image: url("images/bg-mobile.svg");
     background-repeat: no-repeat;
   }
 #social-icons ul{
   list-style-type: none;
-display: flex;
-justify-content: center;
- padding-right: 80px;
+  display: flex;
+  justify-content: center;
   }
-.submit{
+.button{
   display: grid;
-  justify-self: center;
+  justify-content: center;
+
+}
+.submit{
+padding: 10px 70px 10px 70px;
 }
 .heading{
-  text-align: center;
+text-align: center;
 }
 .paragraph{
-  text-align: justify;
+text-align: center;
 }
 html{
   margin: 20px;
