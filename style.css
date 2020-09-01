@@ -52,7 +52,7 @@ h1{
   border-radius: 30px;
   color: #674bb1;
   font-family: 'Open Sans', sans-serif;
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   margin-top: 25px;
 }
 #social-icons ul{
